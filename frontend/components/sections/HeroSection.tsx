@@ -51,7 +51,7 @@ export default function HeroSection({ className }: HeroSectionProps) {
             muted
             playsInline
             preload="auto"
-            poster="/assets/coffee-reveal-poster.jpg" // Fallback poster
+            poster="/assets/coffee-reveal-poster.png" // Fallback poster
           />
 
           {/* Gradient overlay for text contrast */}
