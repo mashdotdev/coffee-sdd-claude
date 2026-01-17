@@ -39,6 +39,24 @@ export interface ParallaxOptions {
   direction?: 'vertical' | 'horizontal';
 }
 
+// Video On Scroll Options (Hero Section)
+export interface VideoOnScrollOptions {
+  start?: string;
+  end?: string;
+  pin?: boolean;
+  trigger?: string | HTMLElement;
+  scrub?: number | boolean;
+}
+
+// Split Text Options (Hero Section)
+export interface SplitTextOptions {
+  type?: 'chars' | 'words' | 'lines';
+  stagger?: number;
+  direction?: 'up' | 'down';
+  delay?: number;
+  duration?: number;
+}
+
 // Product Types (for future use)
 export interface Product {
   id: string;
