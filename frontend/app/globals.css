@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /**
  * Premium Coffee Brand Design System
@@ -7,11 +7,11 @@
 
 :root {
   /* Brand Colors */
-  --espresso-black: #0E0E0E;
-  --roasted-brown: #4A2C1D;
-  --cream-latte: #F5EFE6;
-  --burnt-gold: #C89B3C;
-  --deep-oxide-red: #8B2F2F;
+  --espresso-black: #0e0e0e;
+  --roasted-brown: #4a2c1d;
+  --cream-latte: #f5efe6;
+  --burnt-gold: #c89b3c;
+  --deep-oxide-red: #8b2f2f;
 }
 
 @theme inline {
