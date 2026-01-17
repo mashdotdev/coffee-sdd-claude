@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/**
+ * Premium Coffee Brand Design System
+ * Per Constitution v1.0.0 - Principle III: Luxury Brand Standards
+ */
+
+:root {
+  /* Brand Colors */
+  --espresso-black: #0E0E0E;
+  --roasted-brown: #4A2C1D;
+  --cream-latte: #F5EFE6;
+  --burnt-gold: #C89B3C;
+  --deep-oxide-red: #8B2F2F;
+}
+
+@theme inline {
+  /* Brand Color Palette */
+  --color-espresso: var(--espresso-black);
+  --color-roasted: var(--roasted-brown);
+  --color-cream: var(--cream-latte);
+  --color-gold: var(--burnt-gold);
+  --color-oxide: var(--deep-oxide-red);
+
+  /* Typography */
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+
+  /* Grid */
+  --max-width: 1280px;
+}
+
+body {
+  background: var(--cream-latte);
+  color: var(--espresso-black);
+  font-family: var(--font-body, Arial, Helvetica, sans-serif);
+}
